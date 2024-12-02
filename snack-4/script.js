@@ -9,7 +9,6 @@ const posts = [
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
 const names = posts.map(name => {
-  const {author, date, content} = name;
   return name.author
 })
 
